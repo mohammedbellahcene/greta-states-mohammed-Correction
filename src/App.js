@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="name">{dataBase[0].name}</p>
-        <p>{defaultTruc()}</p>
+        <p>{defaultTruc()} SHTRUMPF</p>
         <a
           className="App-link"
           href="https://reactjs.org"

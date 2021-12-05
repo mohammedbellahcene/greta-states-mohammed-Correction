@@ -1,0 +1,12 @@
+.bgdCompteurs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.compteur {
+  display: flex;
+  margin: 50px;
+}

@@ -1,0 +1,43 @@
+.configCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selecteurYes {
+  width: 300px;
+  border: 2px solid black;
+  background-color: rgba(77, 255, 0, 0.851);
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.selecteurYes:hover {
+  transform: scale(1.1);
+}
+
+.selecteurNo {
+  width: 300px;
+  border: 2px solid rgb(194, 194, 194);
+  background-color: grey;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.selecteurNo:hover {
+  transform: scale(1.1);
+}
+
+.configTitle {
+  background-color: rgb(14, 125, 95);
+  border: solid 1px black;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  min-width: 50%;
+  font-weight: bold;
+  color: white;
+}

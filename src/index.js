@@ -5,9 +5,6 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Compteurs from "./components/Compteurs";
-import Converters from "./components/Converters";
-import Selecteurs from "./components/Selecteurs";
-import Configurator from "./components/Configurator";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,9 +12,6 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="compteurs" element={<Compteurs />} />
-        <Route path="converters" element={<Converters />} />
-        <Route path="selecteurs" element={<Selecteurs />} />
-        <Route path="configurateur" element={<Configurator />} />
       </Routes>
     </BrowserRouter>
     ,

@@ -1,0 +1,59 @@
+.selectcontainer{
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+
+
+}
+.squares,.lionscontainer{
+    border:2px solid black;
+    display:flex;
+    column-gap: 10px;
+    padding: 20px;
+}
+.green,.orange,.lion1,.lion2,.lion3,.orangelions{
+    border:2px solid black;
+    width:400px;
+    height:400px;
+}
+.orange,.orangelions{
+    background-color: orange;
+}
+
+.green{
+    background-color:green;
+}
+.lion1,.lion2,.lion3,.orangelions{
+    border-radius: 50%;
+}
+.lion1{
+    background-image: url("../assets/lion1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lion2{
+    background-image: url("../assets/lion2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lion3{
+    background-image: url("../assets/lion3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: rotation;
+    
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes rotation{
+   
+    100%{
+        transform: rotate(1080deg);
+    }
+
+
+
+}
+

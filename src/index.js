@@ -7,6 +7,7 @@ import App from "./App";
 import Compteurs from "./components/Compteurs";
 import Selecteurs from "./components/selecteur";
 import Converter from "./components/converter";
+import Listedecourse from "./components/listedecourse";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Route path="compteurs" element={<Compteurs />} />
         <Route path="selecteur" element={<Selecteurs />} />
         <Route path="convertor" element={<Converter />} />
+        <Route path="liste" element={<Listedecourse />} />
       </Routes>
     </BrowserRouter>
     ,
